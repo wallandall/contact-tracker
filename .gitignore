@@ -52,3 +52,6 @@ Thumbs.db
 
 #Ignore env files
 *.env
+
+#Config Files
+/config/default.json
