@@ -18,6 +18,7 @@
     "mongoose": "^5.9.3"
   },
   "devDependencies": {
-    "currently": "0.0.8"
+    "currently": "0.0.8",
+    "prettier": "1.19.1"
   }
 }
