@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +21,7 @@
     "mongoose": "^5.9.3"
   },
   "devDependencies": {
-    "currently": "0.0.8",
+    "concurrently": "^5.1.0",
     "prettier": "1.19.1"
   }
 }
