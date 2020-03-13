@@ -55,3 +55,4 @@ Thumbs.db
 
 #Config Files
 /config/default.json
+/config/production.json
